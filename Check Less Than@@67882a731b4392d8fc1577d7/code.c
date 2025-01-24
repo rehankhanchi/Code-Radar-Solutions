@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    float a, b;
+    float a;
+    float b;
     if(a<b)
     printf("True");
     else
