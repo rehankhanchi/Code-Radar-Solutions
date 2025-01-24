@@ -6,7 +6,6 @@ int main() {
     if(a==b)
     printf("True");
     else
-    printf("False")
-    printf("%s", welcome());
+    printf("False");
     return 0;
 }
