@@ -7,6 +7,5 @@ int main() {
     printf("True");
     else
     printf("Flase");
-    printf("%s", welcome());
     return 0;
 }
