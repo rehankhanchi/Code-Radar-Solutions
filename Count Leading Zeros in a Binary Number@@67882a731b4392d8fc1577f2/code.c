@@ -2,9 +2,7 @@
 int main() {
     int a,i;
     scanf("%d",&a);
-    if (a==0)
-    printf("0");
-    for (i=0;(a|1)!=1;i++){
+    for (i=0;(a|1)!=0;i++){
         a= a>>1;
     }
     printf("%d",32-(i+1));
