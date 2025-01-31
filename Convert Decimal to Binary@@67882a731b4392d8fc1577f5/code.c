@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main() {
-    int a,temp=1;
+    int a;
+    int temp=1;
     scanf("%d",&a);
     while(temp*2<=num)
     {
