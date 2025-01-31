@@ -8,7 +8,7 @@ int main() {
         temp*=2;
     }
     long long ans=0;
-    while(temp!=1){
+    while(temp!=0){
         int q =num/temp;
         ans =(ans*10)+q;
         num= num-(q*temp);
