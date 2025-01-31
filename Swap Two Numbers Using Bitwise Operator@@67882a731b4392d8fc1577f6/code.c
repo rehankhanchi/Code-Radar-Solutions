@@ -5,6 +5,6 @@ int main() {
     a^=b;
     b^=a;
     a^=b;
-    printf("%d%d",a,b);
+    printf("%d %d",a,b);
     return 0;
 }
