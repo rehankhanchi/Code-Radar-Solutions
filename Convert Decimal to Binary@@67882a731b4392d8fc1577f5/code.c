@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    int a;
+    int num;
     int temp=1;
     scanf("%d",&a);
     while(temp*2<=num)
