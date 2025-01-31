@@ -2,7 +2,7 @@
 int main() {
     int num;
     int temp=1;
-    scanf("%d",&a);
+    scanf("%d",&num);
     while(temp*2<=num)
     {
         temp*=2;
