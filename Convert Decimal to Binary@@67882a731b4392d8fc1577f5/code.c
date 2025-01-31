@@ -11,7 +11,7 @@ int main() {
     while(temp!=1){
         int q =num/temp;
         ans =ans*10+q;
-        num= num -q*temp;
+        num= num-(q*temp);
         temp=temp/2;
     }
     printf("%d",ans);
