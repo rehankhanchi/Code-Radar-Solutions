@@ -1,5 +1,5 @@
 #include <stdio.h>
-include main (){
+int main (){
     int i,j,k,n;
     scanf("%d",&n);
     for (i=1;i<=n;i++)
@@ -8,11 +8,11 @@ include main (){
         {
             printf(" ");
         }
-        for (k=0;k<(2*i-1);k++)
+        for (k=1;k<=(2*i-1);k++)
         {
             printf("*");
         }
         printf("\n");
     }
-    
+    return 0;
 }
